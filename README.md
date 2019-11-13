@@ -10,3 +10,4 @@ This is just a space where I'm storing my completed lessons for reference.
 -  <b>Activity-2.05:</b> Creates a new library
 -  <b>CSV_Import:</b> Importing CSV Files
 -  <b>XLSX_Import:</b> Importing XLSX Files/Sheets
+-  <b>CSV_Import_Truncated:</b> Importing CSV Files, and setting value to avoid data truncation
