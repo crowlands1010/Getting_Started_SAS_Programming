@@ -1,3 +1,4 @@
+/* PROC IMPORT can only read one sheet at a time */
 proc import datafile="/home/u44656148/EPG194/data/class.xlsx" 
 		dmbs=xlsx
 		out=work.class_test_import replace;
