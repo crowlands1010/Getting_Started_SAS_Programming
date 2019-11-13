@@ -1,0 +1,12 @@
+/* PROC IMPORT can only read one sheet at a time */
+options validvarname=v7;
+proc import datafile="/home/u44656148/EPG194/data/np_traffic.csv" 
+		dbms=csv
+		out=np_traffic replace;
+    
+/* 	Set the value to avoid data truncation. */
+	guessingrows=max; 
+run;
+
+proc contents data=np_traffic;
+run;
