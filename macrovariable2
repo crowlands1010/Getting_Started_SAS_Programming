@@ -1,0 +1,25 @@
+***********************************************************;
+*  Filtering Rows Using Macro Variables                   *;
+***********************************************************;
+*  Syntax and Example                                     *;
+*                                                         *;
+*    %LET macrovar=value;                                 *; 
+*                                                         *;
+*    Usage:                                               *;
+*    WHERE numvar=&macrovar;                              *;
+*    WHERE charvar="&macrovar";                           *;
+*    WHERE datevar="&macrovar"d;                          *;
+***********************************************************;
+%let WindSpeed=100;
+%let BasinCode=SP;
+%let Date=01JAN2010;
+
+proc print data=pg1.storm_summary;
+	where MaxWindMPH>=&WindSpeed and Basin="&BasinCode" and StartDate>="&Date"d;
+	var Basin Name StartDate EndDate MaxWindMPH;
+run;
+
+proc means data=pg1.storm_summary;
+	where MaxWindMPH>=&WindSpeed and Basin="&BasinCode" and StartDate>="&Date"d;
+	var MaxWindMPH MinPressure;
+run; 
