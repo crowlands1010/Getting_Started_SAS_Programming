@@ -12,3 +12,4 @@ This is just a space where I'm storing my completed lessons for reference.
 -  <b>XLSX_Import:</b> Importing XLSX Files/Sheets
 -  <b>CSV_Import_Truncated:</b> Importing CSV Files, and setting value to avoid data truncation
 -  <b>p103p01.sas:</b>  Level 1 Practice for Exploring Data with Procedures: proc print, proc means, proc univariate, proc freq
+-  <b>macrovariable:</b>  First lesson with macrovariables
