@@ -1,0 +1,5 @@
+proc import datafile="/home/u44656148/EPG194/data/class.xlsx" 
+		dmbs=xlsx
+		out=work.class_test_import replace;
+	sheet=class_test;
+run;
