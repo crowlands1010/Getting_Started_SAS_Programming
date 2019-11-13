@@ -1,0 +1,10 @@
+/* Importing A CSV File */
+
+/* Complete the proc import step */
+proc import datafile="/home/u44656148/EPG194/data/storm_damage.csv" dbms=csv
+		out=storm_damage_import replace;
+run;
+
+/* Complete the proc contents step */
+proc contents data=storm_damage_import;
+run;
