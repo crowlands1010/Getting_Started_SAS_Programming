@@ -1,0 +1,18 @@
+/* Create the macrovariable so I only to change the variable once */
+/* when I need to look up a different type. */
+%let CarType=SUV;
+
+proc print data=sashelp.cars;
+	where Type="&CarType";
+	var Type Make Model MSRP;
+run;
+
+proc means data=sashelp.cars;
+	where Type="&CarType";
+	var MSRP MPG_Highway;
+run;
+
+proc freq data=sashelp.cars;
+	where Type="&CarType";
+	tables Origin Make;
+run;
