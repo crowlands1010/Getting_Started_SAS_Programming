@@ -1,0 +1,12 @@
+*Complete the OPTIONS statement;
+options validvarname=v7;
+
+*Complete the LIBNAME statement;
+libname npinfo xlsx "/home/u44656148/EPG194/data/np_info.xlsx";
+
+*Complete the DATA= option to reference the STORM_SUMMAR worksheet;
+proc contents data=npinfo.parks;
+run;
+
+*Clear the XLSTORM library;
+libname npinfo clear;
