@@ -1,0 +1,14 @@
+/* data myclass; */
+/* 	set sashelp.class; */
+/* 	where Age >= 15; */
+/* 	*keep Name Age Height; */
+/* 	*drop Sex Weight; */
+/* 	format Height 4.1 Weight 3. */
+/* run; */
+
+data Storm_cat5;
+	set pg1.storm_summary;
+	where MaxWindMPH >= 156
+	and StartDate >= '01JAN2000'd;
+	keep Season Basin Name Type MaxWindMPH;
+run;
