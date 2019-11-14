@@ -1,0 +1,16 @@
+/* Initial Run */
+proc freq data=pg1.np_species;
+    tables Abundance Conservation_Status;
+    where Species_ID like "YOSE%" and
+          Category="Mammal";
+run;
+
+/* Subsetting w/ macrovariables. */
+%let ParkCode=ZION;
+%let SpeciesCat=Bird;
+
+proc freq data=pg1.np_species;
+    tables Abundance Conservation_Status;
+    where Species_ID like "&ParkCode%" and
+          Category="&SpeciesCat";
+run;
