@@ -21,3 +21,4 @@ This is just a space where I'm storing my completed lessons for reference.
 -  <b>sortingData-Output-Level1:</b> Sorting data and creating and output table.
 -  <b>sortingData-noDups-Level2:</b>  Sorting Data to Remove Duplicate Rows
 -  <b>dataStepLesson:</b> Data step lesson includes writing new table from dataset with specific variables.
+-  <b>p104901:</b> Practice lesson includes creating temp table, selecting specific data points from dataset using where clause and       dropping certain columns from temp table.
