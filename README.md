@@ -16,3 +16,4 @@ This is just a space where I'm storing my completed lessons for reference.
 -  <b>macrovariable2:</b>  Second lesson with macrovariables
 -  <b>macroSubsettingExercise:</b> Level 2 Practice:  Using Macro Variables to Subset Data in Procedures
 -  <b>formattingExercise: </b> Data formatting exercise
+-  <b>sortingExercise: </b> Data sorting exercise
