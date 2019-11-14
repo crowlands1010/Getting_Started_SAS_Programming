@@ -1,0 +1,11 @@
+/*Create output where MaximumWindMPH is equal or greater than 156mph*/
+/*Start Date is equal to or greater than 01 Jan 2000*/
+/*Display only Season Basin Name Type MaxWindMPH*/
+/*Dropping columns instead may have been less typing but I didn't check to see.*/
+
+data Storm_cat5;
+	set pg1.storm_summary;
+	where MaxWindMPH >= 156
+	and StartDate >= '01JAN2000'd;
+	keep Season Basin Name Type MaxWindMPH;
+run;
