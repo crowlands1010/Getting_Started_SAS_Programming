@@ -19,3 +19,4 @@ This is just a space where I'm storing my completed lessons for reference.
 -  <b>sortingExercise: </b> Data sorting exercise
 -  <b>noDupsExercise:</b> Exercise sorting and excluding dups.
 -  <b>sortingData-Output-Level1:</b> Sorting data and creating and output table.
+-  <b>sortingData-noDups-Level2:</b>  Sorting Data to Remove Duplicate Rows
