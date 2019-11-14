@@ -18,3 +18,4 @@ This is just a space where I'm storing my completed lessons for reference.
 -  <b>formattingExercise: </b> Data formatting exercise
 -  <b>sortingExercise: </b> Data sorting exercise
 -  <b>noDupsExercise:</b> Exercise sorting and excluding dups.
+-  <b>sortingData-Output-Level1:</b> Sorting data and creating and output table.
