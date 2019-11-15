@@ -26,3 +26,4 @@ This is just a space where I'm storing my completed lessons for reference.
 -  <b>subsettingLesson4.04: </b> 1) Add an assignment statement to create StormLength that represents the number of days between StartDate and EndDate. 2) Run the program. In 1980, how long did the storm named Agatha last?
 -  <b>summaryFunctionsLesson:</b> 1) Open the PG1.STORM_RANGE table and examine the columns. Notice that each storm has four wind speed measurements. 2) Create a new column named WindAvg that is the mean of Wind1, Wind2, Wind3, and Wind4. 3) Create a new column WindRange that is the range of Wind1, Wind2, Wind3, and Wind4.
 -  <b>substrLesson4.06: </b> 1) Add a WHERE statement that uses the SUBSTR function to include rows where the second letter of Basin is P (Pacific ocean storms). 2) Run the program and view the log and data. How many storms were in the Pacific basin?
+-  <b>dateFunctions: </b> date functions lesson
