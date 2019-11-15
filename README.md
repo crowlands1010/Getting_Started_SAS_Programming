@@ -28,3 +28,4 @@ This is just a space where I'm storing my completed lessons for reference.
 -  <b>substrLesson4.06: </b> 1) Add a WHERE statement that uses the SUBSTR function to include rows where the second letter of Basin is P (Pacific ocean storms). 2) Run the program and view the log and data. How many storms were in the Pacific basin?
 -  <b>dateFunctions: </b> date functions lesson
 -  <b>dateFunctions2: </b> The pg1.eu_occ table contains individual columns for nights spent at hotels, short-stay accommodations, or camps for each year and month. The YearMon column is character. If necessary, start SAS Studio before you begin. Write a DATA step to create a temporary table named eu_occ_total that is based on the pg1.eu_occ table. Format Hotel, ShortStay, Camp, and Total with commas. Format ReportDate to display the values in the form JAN2018. Keep Country, Hotel, ShortStay, Camp, ReportDate, and Total in the new table.
+-  <b>if-else-lesson: </b> if-else lesson
