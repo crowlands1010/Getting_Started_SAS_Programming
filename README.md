@@ -23,3 +23,4 @@ This is just a space where I'm storing my completed lessons for reference.
 -  <b>dataStepLesson:</b> Data step lesson includes writing new table from dataset with specific variables.
 -  <b>p104901:</b> Practice lesson includes creating temp table, selecting specific data points from dataset using where clause and       dropping certain columns from temp table.
 -  <b>subsettingMultipleConditions:</b> Level 2 Practice: Subsetting by Multiple Conditions and Creating a Sorted SAS Table
+-  <b>subsettingLesson4.04: </b> 1) Add an assignment statement to create StormLength that represents the number of days between StartDate and EndDate. 2) Run the program. In 1980, how long did the storm named Agatha last?
