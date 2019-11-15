@@ -29,3 +29,4 @@ This is just a space where I'm storing my completed lessons for reference.
 -  <b>dateFunctions: </b> date functions lesson
 -  <b>dateFunctions2: </b> The pg1.eu_occ table contains individual columns for nights spent at hotels, short-stay accommodations, or camps for each year and month. The YearMon column is character. If necessary, start SAS Studio before you begin. Write a DATA step to create a temporary table named eu_occ_total that is based on the pg1.eu_occ table. Format Hotel, ShortStay, Camp, and Total with commas. Format ReportDate to display the values in the form JAN2018. Keep Country, Hotel, ShortStay, Camp, ReportDate, and Total in the new table.
 -  <b>if-else-lesson: </b> if-else lesson
+-  <b>activity4.07: </b>Add the ELSE keyword to test conditions sequentially until a true condition is met. Change the final IF-THEN statement to an ELSE statement.
