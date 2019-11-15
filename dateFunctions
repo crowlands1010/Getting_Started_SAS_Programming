@@ -1,0 +1,13 @@
+/*Playing around with date functions and a few other previous lessons.*/
+
+data stormNew;
+	set pg1.storm_damage;
+	drop Summary;
+	YearsPassed=yrdif(Date,today(),"age");
+	Anniversary=mdy(month(Date),day(Date),year(today()));
+	format YearsPassed 4.1 Date Anniversary mmddyy10. Cost dollar20.;
+run;
+
+proc sort data=stormNew;
+	by deaths;
+run;
