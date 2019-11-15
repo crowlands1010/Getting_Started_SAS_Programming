@@ -1,0 +1,28 @@
+data cars2;
+	set sashelp.cars;
+	if msrp<30000 then Cost_Group=1;
+	if msrp>=30000 then Cost_Group=2;
+	keep Make Model Type MSRP Cost_Group;
+run;
+
+data storm_new;
+	set pg1.storm_summary;
+	keep Season Name Basin MinPressure PressureGroup;
+	
+	*if/then statement;
+	if MinPressure <= 920 then PressureGroup=1;
+	if MinPressure > 920 then PressureGroup=0;
+run;
+
+*With an else if statement, the logic will be tested until true and then the rest of the statement is skipped.;
+data storm_new;
+	set pg1.storm_summary;
+	keep Season Name Basin MinPressure PressureGroup;
+	
+	*if/then statement;
+	if MinPressure <= 920 then PressureGroup=1;
+	if MinPressure > 920 then PressureGroup=0;
+run
+
+
+	
