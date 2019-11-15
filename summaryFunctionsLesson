@@ -9,14 +9,17 @@
 *       of Wind1, Wind2, Wind3, and Wind4.                *;
 ***********************************************************;
 
-data storm_wingavg;
+data storm_windavg;
 	set pg1.storm_range;
 	
 	*Calculate the Mean;
-	WindAvg= 'Wind Average';
-	WindAvg= mean(Wind1,Wind2,Wind3,Wind4);
+	Wind_Average = mean(Wind1,Wind2,Wind3,Wind4);
+
 	
 	*Calculate the Range;
-	WindRange='Wind Range';
-	WindRange= range(Wind1,Wind2,Wind3,Wind4);
+	Wind_Range= range(Wind1,Wind2,Wind3,Wind4);
+	
+	*Calculate Std Dev;
+	StdDev= std(Wind1,Wind2,Wind3,Wind4);
+	
 run;
