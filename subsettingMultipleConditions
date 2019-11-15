@@ -21,6 +21,7 @@ data fox;
 		Category="Mammal"
 		and Common_Names like '%Fox%'
 		and Common_Names not like '%Squirrel%';
+/*Can also be Common_Names contains 'Fox' and Common_Names not contains 'Squirrel'*/
 	drop Category Record_Status Occurrence Nativeness;
 run;
 
