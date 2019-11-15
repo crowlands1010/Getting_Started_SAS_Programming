@@ -24,3 +24,4 @@ This is just a space where I'm storing my completed lessons for reference.
 -  <b>p104901:</b> Practice lesson includes creating temp table, selecting specific data points from dataset using where clause and       dropping certain columns from temp table.
 -  <b>subsettingMultipleConditions:</b> Level 2 Practice: Subsetting by Multiple Conditions and Creating a Sorted SAS Table
 -  <b>subsettingLesson4.04: </b> 1) Add an assignment statement to create StormLength that represents the number of days between StartDate and EndDate. 2) Run the program. In 1980, how long did the storm named Agatha last?
+-  <b>summaryFunctionsLesson:</b> 1) Open the PG1.STORM_RANGE table and examine the columns. Notice that each storm has four wind speed measurements. 2) Create a new column named WindAvg that is the mean of Wind1, Wind2, Wind3, and Wind4. 3) Create a new column WindRange that is the range of Wind1, Wind2, Wind3, and Wind4.
